@@ -35,7 +35,7 @@ public:
     virtual ~ESPNoiseSource();
 
     
-void NoiseSource::added();
+
     void stir();
 
 private:

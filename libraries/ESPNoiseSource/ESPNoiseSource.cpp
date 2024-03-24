@@ -108,11 +108,6 @@ ESPNoiseSource::~ESPNoiseSource()
     
 }
 
-void ESPNoiseSource::added()
-{
-    // I was going to stir in the serial numbers here but it's already done in the base class :)
-}
-
 void ESPNoiseSource::stir()
 {
     uint32_t s_module_phy_rf_init_old = s_module_phy_rf_init;
